@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "recommendation-interface"
+version = "0.1.0"
+description = ""
+authors = ["Pedro  <55058149+PedroG022@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flet = "^0.21.1"
+pandas = "^2.2.1"
+kmodes = "^0.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
